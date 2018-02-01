@@ -1,0 +1,12 @@
+{
+  "name": "chat",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "echo hello"
+  },
+  "dependencies": {
+    "date-fns": "^1.29.0"
+  }
+}

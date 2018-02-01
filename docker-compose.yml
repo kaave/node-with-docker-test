@@ -1,0 +1,9 @@
+version: "2"
+services:
+  chat:
+    build: .
+    environment:
+      NODE_ENV: development
+    volumes:
+      - .:/home/app/chat
+      - /home/app/chat/node_modules
